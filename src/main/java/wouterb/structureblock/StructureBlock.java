@@ -1,4 +1,4 @@
-package wouterb.structurelockingtest;
+package wouterb.structureblock;
 
 import it.unimi.dsi.fastutil.longs.LongSet;
 import net.fabricmc.api.ModInitializer;
@@ -7,7 +7,6 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.structure.StructureStart;
@@ -21,13 +20,13 @@ import org.slf4j.LoggerFactory;
 import java.util.Arrays;
 import java.util.Map;
 
-public class StructureLockingTest implements ModInitializer {
-	public static String MOD_ID = "structurelockingtest";
-    public static final Logger LOGGER = LoggerFactory.getLogger("structure-locking-test");
+public class StructureBlock implements ModInitializer {
+	public static String MOD_ID = "structureblock";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		PlayerBlockBreakEvents.BEFORE.register(StructureLockingTest::onBlockBroken);
+		PlayerBlockBreakEvents.BEFORE.register(StructureBlock::onBlockBroken);
 	}
 
 

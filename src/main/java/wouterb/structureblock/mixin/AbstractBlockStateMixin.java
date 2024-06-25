@@ -1,4 +1,4 @@
-package wouterb.structurelockingtest.mixin;
+package wouterb.structureblock.mixin;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.entity.player.PlayerEntity;

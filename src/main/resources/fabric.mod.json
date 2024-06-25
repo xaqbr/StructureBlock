@@ -1,29 +1,29 @@
 {
 	"schemaVersion": 1,
-	"id": "structure-locking-test",
+	"id": "structureblock",
 	"version": "${version}",
-	"name": "Structure Locking Test",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "StructureBlock",
+	"description": "Block breaking and placement within structures!",
 	"authors": [
-		"Me!"
+		"WouterB"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/WouterB15/StructureBlock"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/structure-locking-test/icon.png",
+	"icon": "assets/structureblock/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"wouterb.structurelockingtest.StructureLockingTest"
+			"wouterb.structureblock.StructureBlock"
 		],
 		"fabric-datagen": [
-			"wouterb.structurelockingtest.StructureLockingTestDataGenerator"
+			"wouterb.structureblock.StructureBlockDataGenerator"
 		]
 	},
 	"mixins": [
-		"structure-locking-test.mixins.json"
+		"structureblock.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.11",
