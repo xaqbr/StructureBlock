@@ -23,7 +23,6 @@ public class StructureBlock implements ModInitializer {
 		registerCommands();
 	}
 
-
 	public static void registerEvents() {
 		PlayerBlockBreakEvents.BEFORE.register(Events::onBlockBroken);
 		PlaceBlockCallback.EVENT.register(Events::onBlockPlaced);
