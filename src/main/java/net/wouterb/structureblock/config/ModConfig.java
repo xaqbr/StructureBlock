@@ -26,7 +26,7 @@ public class ModConfig {
     static boolean notify_player_on_enter = false;
     @StoreInConfig
     @Comment("If true, operators will not be affected by restrictions")
-    static boolean operators_bypass_restrictions = true;
+    static boolean operators_bypass_restrictions = false;
     @StoreInConfig
     @Comment("If true, players in creative will not be affected by restrictions")
     static boolean creative_bypass_restrictions = true;
