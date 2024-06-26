@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "wouterb.structureblock.mixin",
+	"package": "net.wouterb.structureblock.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"AbstractBlockStateMixin"
+		"item.ItemStackMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

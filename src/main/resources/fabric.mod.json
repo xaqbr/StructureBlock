@@ -1,37 +1,37 @@
 {
-	"schemaVersion": 1,
-	"id": "structureblock",
-	"version": "${version}",
-	"name": "StructureBlock",
-	"description": "Block breaking and placement within structures!",
-	"authors": [
-		"WouterB"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/WouterB15/StructureBlock"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/structureblock/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"wouterb.structureblock.StructureBlock"
-		],
-		"fabric-datagen": [
-			"wouterb.structureblock.StructureBlockDataGenerator"
-		]
-	},
-	"mixins": [
-		"structureblock.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.15.11",
-		"minecraft": "~1.20.1",
-		"java": ">=17",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "structureblock",
+  "version": "${version}",
+  "name": "StructureBlock",
+  "description": "Block breaking and placement within structures!",
+  "authors": [
+    "WouterB"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/WouterB15/StructureBlock"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/structureblock/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.wouterb.structureblock.StructureBlock"
+    ],
+    "fabric-datagen": [
+      "net.wouterb.structureblock.StructureBlockDataGenerator"
+    ]
+  },
+  "mixins": [
+    "structureblock.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
